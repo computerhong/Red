@@ -1,14 +1,17 @@
-// Red.cpp : 定义控制台应用程序的入口点。
+// Red.cpp : The entry of the console application.
 //
 
-#include "stdafx.h"
+#include <iostream>
 #include <opencv2\opencv.hpp>
+#include "algorithm.h"
 
-int _tmain(int argc, _TCHAR* argv[])
+using namespace std;
+using namespace cv;
+using namespace red;
+
+int main()
 {
-	cv::Mat image = cv::imread("E:\\Images\\Lena.jpg", -1);
-	cv::imshow("Lena", image);
-	cv::waitKey(0);
+	red::algorithm::Examples();
 	return 0;
 }
 
