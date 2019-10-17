@@ -11,7 +11,7 @@ using namespace red;
 
 int main()
 {
-	red::algorithm::Examples();
-	return 0;
+    red::algorithm::Examples();
+    return 0;
 }
 
